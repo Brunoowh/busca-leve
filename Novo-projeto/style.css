@@ -1,0 +1,117 @@
+body{
+    min-height: 100vh;
+    background-color: black;
+    margin: 0.25%;
+}
+
+main{
+    display: grid;
+    align-content: stretch;
+    justify-content: center;
+    align-items: end;
+    justify-items: center;
+    min-height: 80vh;
+    border: 3px solid white;
+    
+}
+
+main > :last-child {
+    padding: 1.5rem;
+}
+
+h1{
+    letter-spacing: 10px;
+    transition: letter-spacing 1s;
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+p:hover {
+    letter-spacing: 4px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding: 15px 25px;
+    border: 3px solid white;
+    margin-bottom: 20px;
+    max-height: 25vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    transition: border 2.5s;
+}
+
+button {
+    background: none;
+    border: 3px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+/* barra de busca */
+
+input{
+    width: 600px;
+    background: none;
+    border: 3px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 0.9em;
+}
+
+input:focus {
+    outline: none;
+    border-color: white;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login > button {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+}
